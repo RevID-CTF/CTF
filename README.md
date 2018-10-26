@@ -1,2 +1,2 @@
 # CTF
-CTF write-ups RevID.CTF team
+CTF write-ups by RevID.CTF team
