@@ -4,5 +4,4 @@ Disediakan web dimana kita bisa mengconvert format file ke format lain, sebagai 
 
 Diatas merupakan kedua script yang saya gunakan untuk mendekripsi dan mengenkripsi cookie. Dengan decrypt.py kita dapat mendekripsi cookie dan dengan encrypt.py kita dapat mengenkripsi payload RCE yang menjadi padding yang valid.
 
-Referensi : https://merricx.github.io/picoctf2018-padding-oracle/
-Sebagian script kami edit dari link di atas, terima kasih kepada author blog tersebut.
+Referensi : https://merricx.github.io/picoctf2018-padding-oracle/. sebagian script kami edit dari link tersebut, thanks to the author.
