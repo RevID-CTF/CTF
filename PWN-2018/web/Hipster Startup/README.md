@@ -18,7 +18,7 @@ Awal nya kami  melakukan brute force username dan password menggunakan query ber
 ```mysql
 user=admin&passwd=a' OR (u.user LIKE "tim%") RETURN u.user //
 
-``````mysql
+```mysql
 user=admin&passwd=a' OR (u.passwd LIKE "iamsoawesome%") RETURN u.user //
 ```
 
